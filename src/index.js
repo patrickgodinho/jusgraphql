@@ -11,4 +11,4 @@ app.use(
     graphiql: true
   })
 );
-app.listen(4001);
+app.listen(process.env.PORT || 4001);
