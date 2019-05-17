@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run clear && babel src --ignore *.spec.js --out-dir dist --copy-files",
+    "build": "babel src --ignore *.spec.js --out-dir dist --copy-files",
     "watch": "nodemon src/index.js --exec babel-node",
     "start": "node dist/index.js",
     "update-schema": "babel-node ./scripts/schema.js"
